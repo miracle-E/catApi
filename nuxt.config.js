@@ -29,7 +29,31 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    'bootstrap-vue/nuxt',
   ],
+    bootstrapVue: {
+      componentPlugins: [
+        'NavbarPlugin',
+        'LayoutPlugin',
+        'FormPlugin',
+        'FormCheckboxPlugin',
+        'FormInputPlugin',
+        'FormRadioPlugin',
+        'ToastPlugin',
+        'ModalPlugin',
+        'CardPlugin',
+        'FormPlugin',
+        'ButtonPlugin',
+        'LayoutPlugin',
+        'AlertPlugin',
+        'FormSelectPlugin',
+        'ButtonPlugin',
+        'IconsPlugin',
+        'FormTextareaPlugin',
+        'OverlayPlugin',
+      ],
+    },
+  
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
